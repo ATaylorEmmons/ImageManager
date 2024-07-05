@@ -20,3 +20,17 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+
+form ul.form_inputs {
+    display: flex;
+    list-style-type: none;
+
+    align-content: center;
+    justify-content: center;
+
+}
+
+form ul.form_inputs li{
+    margin: 5px;
+}

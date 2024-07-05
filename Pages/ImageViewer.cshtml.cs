@@ -3,8 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ImageManager.Pages
 {
-    public class IndexModel : PageModel
+    public class ImageViewerModel : PageModel
     {
+        public List<String>? ImageSrcs { get; set; }
+
+
         public void OnGet()
         {
         }
